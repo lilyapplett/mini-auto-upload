@@ -1,0 +1,14 @@
+{
+	"name": "mini-auto-upload",
+    "version": "1.0.0",
+    "description": "小程序自动化部署",
+	"scripts": {
+		"upload": "node ./config/auto-upload.js upload",
+		"preview":"node ./config/auto-upload.js preview"
+	},
+	"dependencies": {
+		"commander": "^11.1.0",
+		"inquirer": "8.0.0",
+		"miniprogram-ci": "^1.9.8"
+	}
+}
